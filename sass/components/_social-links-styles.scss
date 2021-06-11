@@ -6,18 +6,19 @@
   justify-content: center;
   align-items: center;
   transition: background-color var(--duration) var(--timing-function);
+  &:hover,
+  &:focus {
+    background-color: var(--accennt-color);
+  }
 }
-.social-links:hover,
-.social-links:focus {
-  background-color: var(--accennt-color);
-}
-.social-links:hover .icon-card-sl,
-.social-links:focus .icon-card-sl {
-  fill: #ffffff;
-}
+
 .icon-card-sl {
   fill: #afb1b8;
   transition: fill var(--duration) var(--timing-function);
+  .social-links:hover &,
+  .social-links:focus & {
+    fill: #ffffff;
+  }
 }
 .icon-card-sl:hover {
   fill: #ffffff;

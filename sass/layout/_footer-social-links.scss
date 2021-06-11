@@ -23,11 +23,12 @@
   align-items: center;
   background-color: #3a3b41;
   transition: background-color var(--duration) var(--timing-function);
+  &:hover,
+  &:focus {
+    background-color: var(--accennt-color);
+  }
 }
-.footer-sl:hover,
-.footer-sl:focus {
-  background-color: #2196f3;
-}
+
 .icon-footer-sl {
   width: 20px;
   height: 20px;
