@@ -1,0 +1,56 @@
+.our-power-sides {
+  padding-top: 94px;
+}
+.about-us {
+  display: flex;
+  flex-direction: row;
+}
+.about-us li {
+  width: 270px;
+}
+
+.about-us li:not(:last-child) {
+  margin-right: 30px;
+}
+.about-us li::before {
+  content: ' ';
+  display: block;
+  height: 120px;
+  background-position: center;
+  background-color: #f5f4fa;
+}
+.antena::before {
+  background-image: url(../images/icon-img/antenna-1.svg);
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+}
+.clock::before {
+  background-image: url(../images/icon-img/clock-1.svg);
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+}
+.diagram::before {
+  background-image: url(../images/icon-img/diagram-1.svg);
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+}
+.astronaut::before {
+  background-image: url(../images/icon-img/astronaut-1.svg);
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+}
+.our-power-side {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.text {
+  width: 270px;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}

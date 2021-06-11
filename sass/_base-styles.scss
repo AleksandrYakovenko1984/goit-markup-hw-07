@@ -1,0 +1,17 @@
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body {
+  font-family: Roboto, sans-serif;
+  background: #ffffff;
+  color: var(--primary-text-color);
+  margin: 0px 0px 0px 0px;
+}

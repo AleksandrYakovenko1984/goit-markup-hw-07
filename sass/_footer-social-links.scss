@@ -1,0 +1,35 @@
+.porpose {
+  color: #fff;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.footer-title-social-links {
+  display: flex;
+  margin-top: 20px;
+}
+.footer-title-social-links .footer-sl {
+  margin-right: 10px;
+}
+.footer-sl {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  background-color: #3a3b41;
+  transition: background-color var(--duration) var(--timing-function);
+}
+.footer-sl:hover,
+.footer-sl:focus {
+  background-color: #2196f3;
+}
+.icon-footer-sl {
+  width: 20px;
+  height: 20px;
+  fill: #ffffff;
+}

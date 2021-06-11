@@ -1,0 +1,80 @@
+.our-team-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: #f5f4fa;
+}
+.our-team-name {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  margin: 0px 0 50px 0;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+.our-team {
+  display: flex;
+  flex-direction: row;
+}
+.our-team .card-agent {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.social-links {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  transition: background-color var(--duration) var(--timing-function);
+}
+.social-links:hover,
+.social-links:focus {
+  background-color: #2196f3;
+}
+.social-links:hover .icon-card-sl,
+.social-links:focus .icon-card-sl {
+  fill: #ffffff;
+}
+.icon-card-sl {
+  fill: #afb1b8;
+  transition: fill var(--duration) var(--timing-function);
+}
+.icon-card-sl:hover {
+  fill: #ffffff;
+}
+.card-social-links {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 30px;
+}
+
+.title-social-links {
+}
+.img-card-content {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.agent-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+.agent-prof {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 10px;
+  color: var(--title-text-color);
+}
+.card-agent {
+  background-color: #ffffff;
+}
+.card-agent:not(:last-child) {
+  margin-right: 30px;
+}
