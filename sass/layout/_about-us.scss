@@ -4,13 +4,12 @@
 .about-us {
   display: flex;
   flex-direction: row;
-}
-.about-us li {
-  width: 270px;
-}
-
-.about-us li:not(:last-child) {
-  margin-right: 30px;
+  li {
+    width: 270px;
+  }
+  li:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 .about-us li::before {
   content: ' ';
