@@ -1,9 +1,9 @@
-.what-we-do-section {
+.occupation {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.what-we-do {
+.occupation__list {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -25,13 +25,4 @@
 
     color: #ffffff;
   }
-}
-
-.img-one {
-  margin-right: 30px;
-}
-.img-two {
-  margin-right: 30px;
-}
-.img-three {
 }

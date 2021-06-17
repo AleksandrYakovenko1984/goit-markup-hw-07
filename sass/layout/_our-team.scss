@@ -1,25 +1,24 @@
-.our-team-section {
+.team {
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: #f5f4fa;
 }
 
-.our-team {
+.team__cardlist {
   display: flex;
   flex-direction: row;
-  .card-agent {
+  .team__card {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
   }
 }
-.title-social-links {
-}
-.img-card-content {
+
+.agent {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.agent-name {
+.agent__name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -27,7 +26,7 @@
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
-.agent-prof {
+.agent__prof {
   font-size: 16px;
   line-height: 19px;
   text-align: center;
@@ -35,7 +34,7 @@
   margin-top: 10px;
   color: var(--title-text-color);
 }
-.card-agent {
+.team__card {
   background-color: #ffffff;
   &:not(:last-child) {
     margin-right: 30px;

@@ -1,7 +1,7 @@
 .address {
   margin-top: 20px;
 }
-.address-fact {
+.address__fact {
   width: 231px;
   height: 21px;
   font-family: Roboto;
@@ -13,7 +13,7 @@
 
   color: var(--second-primary-text-color);
 }
-.mail-footer {
+.address__mail {
   color: rgba(255, 255, 255, 0.6);
   width: 231px;
   height: 21px;
@@ -27,7 +27,7 @@
 
   letter-spacing: 0.03em;
 }
-.tel-footer {
+.address__tel {
   color: rgba(255, 255, 255, 0.6);
   width: 231px;
   height: 21px;
