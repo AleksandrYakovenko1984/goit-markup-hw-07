@@ -10,14 +10,14 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.footer-title-social-links {
+.social-list {
   display: flex;
   margin-top: 20px;
 }
-.footer-title-social-links .footer-sl {
+.social-list .social-list__item {
   margin-right: 10px;
 }
-.footer-sl {
+.social-list__item {
   display: flex;
   width: 44px;
   height: 44px;
@@ -32,7 +32,7 @@
   }
 }
 
-.icon-footer-sl {
+.social-list__icon {
   width: 20px;
   height: 20px;
   fill: #ffffff;

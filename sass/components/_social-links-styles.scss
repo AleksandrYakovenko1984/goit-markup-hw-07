@@ -25,7 +25,7 @@
   .card-social-links__item:focus & {
     fill: #ffffff;
   }
-}
-.card-social-links__icon:hover {
-  fill: #ffffff;
+  &:hover {
+    fill: #ffffff;
+  }
 }

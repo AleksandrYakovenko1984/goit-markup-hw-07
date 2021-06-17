@@ -1,7 +1,7 @@
 .footer-form {
   display: flex;
   flex-direction: column;
-  &-name {
+  &__name {
     font-weight: bold;
     font-size: 14px;
     line-height: 1.16;
@@ -11,11 +11,11 @@
   }
 }
 
-.form-btn {
+.footer-form__btn {
   display: flex;
   margin-top: 20px;
 }
-.footer-input {
+.footer-form__input {
   padding: 15px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
@@ -42,7 +42,7 @@
 }
 
 /* КНОПКА */
-.button-send {
+.footer-form__button {
   margin-left: 12px;
   background-color: var(--accennt-color);
   width: 200px;
@@ -60,7 +60,7 @@
   color: #ffffff;
   padding-left: 28px;
 }
-.icon-btn {
+.footer-form__icon {
   fill: #ffffff;
   width: 24px;
   height: 24px;

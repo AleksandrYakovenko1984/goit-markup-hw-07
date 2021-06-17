@@ -84,7 +84,8 @@ body {
   transition: background-color var(--duration) var(--timing-function);
 }
 
-.card-social-links__item:hover, .card-social-links__item:focus {
+.card-social-links__item:hover,
+.card-social-links__item:focus {
   background-color: var(--accennt-color);
 }
 
@@ -133,7 +134,7 @@ body {
   padding: 40px;
 }
 
-.modal-close-btn {
+.modal__button {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -145,10 +146,11 @@ body {
   cursor: pointer;
   fill: #000000;
   padding: 0;
-  transition: fill var(--duration) var(--timing-function), border-color var(--duration) var(--timing-function);
+  transition: fill var(--duration) var(--timing-function),
+    border-color var(--duration) var(--timing-function);
 }
 
-.modal-close-btn:hover {
+.modal__button:hover {
   fill: var(--accennt-color);
   border-color: var(--accennt-color);
 }
@@ -300,7 +302,8 @@ body {
   border: none;
   color: #ffffff;
   margin-top: 30px;
-  transition: background-color var(--duration) var(--timing-function), box-shadow var(--duration) var(--timing-function);
+  transition: background-color var(--duration) var(--timing-function),
+    box-shadow var(--duration) var(--timing-function);
 }
 
 .modal-form-btn:hover {
@@ -374,7 +377,8 @@ ul {
   transition: color var(--duration) var(--timing-function);
 }
 
-.menu__link:hover, .menu__link:focus {
+.menu__link:hover,
+.menu__link:focus {
   color: var(--accent-color);
 }
 
@@ -406,7 +410,8 @@ ul {
   transition: color var(--duration) var(--timing-function);
 }
 
-.contacts__mail:hover, .contacts__mail:focus {
+.contacts__mail:hover,
+.contacts__mail:focus {
   color: var(--accennt-color);
 }
 
@@ -417,7 +422,8 @@ ul {
   transition: color var(--duration) var(--timing-function);
 }
 
-.contacts__phone:hover, .contacts__phone:focus {
+.contacts__phone:hover,
+.contacts__phone:focus {
   color: var(--accennt-color);
 }
 
@@ -453,7 +459,8 @@ ul {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/icon-img/Img-hero.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/icon-img/Img-hero.jpg);
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
@@ -594,7 +601,8 @@ ul {
 }
 
 .team__cardlist .team__card {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -663,7 +671,8 @@ ul {
   transition: border var(--duration) var(--timing-function);
 }
 
-.customers__link:hover, .customers__link:focus {
+.customers__link:hover,
+.customers__link:focus {
   border: 1px solid #2196f3;
 }
 
@@ -760,16 +769,16 @@ ul {
   text-transform: uppercase;
 }
 
-.footer-title-social-links {
+.social-list {
   display: flex;
   margin-top: 20px;
 }
 
-.footer-title-social-links .footer-sl {
+.social-list .social-list__item {
   margin-right: 10px;
 }
 
-.footer-sl {
+.social-list__item {
   display: flex;
   width: 44px;
   height: 44px;
@@ -780,11 +789,12 @@ ul {
   transition: background-color var(--duration) var(--timing-function);
 }
 
-.footer-sl:hover, .footer-sl:focus {
+.social-list__item:hover,
+.social-list__item:focus {
   background-color: var(--accennt-color);
 }
 
-.icon-footer-sl {
+.social-list__icon {
   width: 20px;
   height: 20px;
   fill: #ffffff;
@@ -795,7 +805,7 @@ ul {
   flex-direction: column;
 }
 
-.footer-form-name {
+.footer-form__name {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.16;
@@ -804,12 +814,12 @@ ul {
   color: #ffffff;
 }
 
-.form-btn {
+.footer-form__btn {
   display: flex;
   margin-top: 20px;
 }
 
-.footer-input {
+.footer-form__input {
   padding: 15px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
@@ -822,11 +832,11 @@ ul {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-input:focus {
+.footer-form__input:focus {
   border: none;
 }
 
-.footer-input::placeholder {
+.footer-form__input::placeholder {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.25;
@@ -838,7 +848,7 @@ ul {
 }
 
 /* КНОПКА */
-.button-send {
+.footer-form__button {
   margin-left: 12px;
   background-color: var(--accennt-color);
   width: 200px;
@@ -857,7 +867,7 @@ ul {
   padding-left: 28px;
 }
 
-.icon-btn {
+.footer-form__icon {
   fill: #ffffff;
   width: 24px;
   height: 24px;
@@ -909,11 +919,14 @@ ul {
   padding: 6px 22px;
   color: var(--primary-text-color);
   border-radius: 4px;
-  transition: background-color var(--duration) var(--timing-function), color var(--duration) var(--timing-function), box-shadow var(--duration) var(--timing-function);
+  transition: background-color var(--duration) var(--timing-function),
+    color var(--duration) var(--timing-function), box-shadow var(--duration) var(--timing-function);
 }
 
-.button-portf:hover, .button-portf:focus {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+.button-portf:hover,
+.button-portf:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   background-color: var(--accennt-color);
   color: var(--second-primary-text-color);
 }
@@ -933,8 +946,10 @@ ul {
   transition: box-shadow var(--duration) var(--timing-function);
 }
 
-.all-section-port a:hover, .all-section-port a:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+.all-section-port a:hover,
+.all-section-port a:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .name-img {
