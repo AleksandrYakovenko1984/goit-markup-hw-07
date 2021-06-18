@@ -1,4 +1,4 @@
-.buton-list {
+.button-list {
   display: flex;
   flex-direction: row;
   font-family: Roboto;
@@ -16,7 +16,7 @@
   }
 }
 
-.button-portf {
+.button-list__item {
   background-color: var(--button-portf-background);
   font-family: Roboto;
   font-style: normal;
